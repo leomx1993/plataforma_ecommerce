@@ -1,0 +1,95 @@
+@import '@fontsource/roboto';
+
+.login-form-container {
+  padding-bottom: 15%;
+}
+
+.login-form-container.loading > * {
+  pointer-events: none;
+}
+
+.login-form-container.loading::before {
+  content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); 
+    z-index: 4;
+}
+
+.login-form-container >*{
+  font-family: roboto;
+}
+
+.login-title-container{
+  padding-bottom:1%;  
+  padding-left: 22%;
+}
+
+.login-message {
+  color: #a540e9;
+  font-size: 92px;
+}
+
+.login-subtitle {
+  color: #a540e9;
+}
+
+.login-email-input-container{
+  padding-bottom: 2%;
+}
+
+.login-email-input{
+  width: 100%
+}
+
+.login-password-input-container{
+  padding-bottom: 2%;
+}
+
+.login-password-input{
+  width: 100%;
+}
+
+.login-remember-me-checkbox-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.login-button-container {
+  padding-top: 5%;
+  padding-left: 45%;
+}
+
+.login-button {
+  background-color: #a540e9!important;
+  z-index: 6;
+}
+
+.forgot-password-hyperlink-container {
+  padding-top: 10%;
+  padding-left: 33%;
+  font-size: 20px;
+}
+
+.forgot-password-hyperlink {
+  color:#a540e9
+}
+
+.forgot-password-hyperlink:hover {
+  color:#b877f4;
+}
+
+.MuiCircularProgress-root { 
+  top: 50%; 
+  left: 46%; 
+  position: fixed; 
+  z-index: 6;
+}
+
+.MuiAlert-root {
+  z-index: 6;
+  border-radius: 20px;
+}

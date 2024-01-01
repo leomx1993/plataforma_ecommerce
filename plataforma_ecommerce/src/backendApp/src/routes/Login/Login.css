@@ -1,0 +1,13 @@
+.login-content-container {
+  display: flex;
+  background-image: url("/home/leoardo/plataforma_ecommerce/src/assets/login_image.png");
+  overflow: hidden;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  justify-content: right;
+}
+
+
+
+
